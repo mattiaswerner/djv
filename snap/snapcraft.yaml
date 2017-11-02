@@ -34,7 +34,7 @@ apps:
 
 parts:
   cmake-build:
-    source: https://github.com/mattiaswerner/djv
+    source: https://github.com/mattiaswerner/djv.git
     source-type: git
     plugin: cmake
     after: [desktop-qt5]
