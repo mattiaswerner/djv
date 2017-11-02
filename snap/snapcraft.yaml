@@ -12,6 +12,8 @@ description: |
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
+architectures: [amd64]
+
 apps:
   djv-view:
     command: desktop-launch djv_view
