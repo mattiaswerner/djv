@@ -18,7 +18,7 @@ apps:
   djv-view:
     command: desktop-launch djv_view
 #    desktop: /share/applications/djv_view.desktop
-    plugs: [x11, opengl, unity7, home, removable-media]
+    plugs: [x11, wayland, opengl, unity7, home, removable-media, desktop, network, network-observe, optical-drive]
     aliases: [djv_view]
 
   djv-convert:
