@@ -19,20 +19,15 @@ apps:
     command: desktop-launch djv_view
 #    desktop: /share/applications/djv_view.desktop
     plugs: [x11, wayland, opengl, unity7, home, removable-media, desktop, network, network-observe, optical-drive]
-    aliases: [djv_view]
 
   djv-convert:
     command: djv_convert
-    aliases: [djv_convert]
 
   djv-info:
     command: djv_info
-    aliases: [djv_info]
 
   djv-ls:
     command: djv_ls
-    aliases: [djv_ls]
-
 
 parts:
   cmake-build:
