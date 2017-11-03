@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.1
+Encoding=UTF-8
+Type=Application
+Name=djv_view
+GenericName=Image Sequence Viewer
+Exec=djv_view %U
+TryExec=djv_view
+Icon=${SNAP}/usr/share/icons/hicolor/48x48/apps/djv_view.png
+Comment=Professional movie playback software for film production, VFX, and computer animation
+Categories=Graphics
+Terminal=false
+MimeType=image/jpeg;image/png;image/tiff;image/x-cin;image/x-dpx;image/x-iff;image/x-ifl;image/x-jpeg;image/x-lut;image/x-1dl;image/x-exr;image/x-pic;image/x-png;image/x-pbm;image/x-rla;image/x-sgi;image/x-tga;image/x-tiff;video/quicktime;video/mp4;
+StartupNotify=true
