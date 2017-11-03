@@ -23,13 +23,16 @@ apps:
 
   djv-convert:
     command: djv_convert
+    plugs: [home, removable-media, network, network-observe, optical-drive]
 
   djv-info:
     command: djv_info
-
+    plugs: [home, removable-media, network, network-observe, optical-drive]
+  
   djv-ls:
     command: djv_ls
-
+    plugs: [home, removable-media, network, network-observe, optical-drive]
+    
 parts:
   cmake-build:
     source: https://github.com/mattiaswerner/djv.git
@@ -61,3 +64,4 @@ parts:
 
     stage-packages:
       - libqt5gui5
+      - libstdc++6
