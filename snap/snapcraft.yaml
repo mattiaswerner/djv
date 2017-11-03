@@ -17,8 +17,8 @@ architectures: [amd64]
 apps:
   djv-view:
     command: desktop-launch djv_view
-#    desktop: /share/applications/djv_view.desktop
-    plugs: [x11, wayland, opengl, unity7, home, removable-media, desktop, network, network-observe, optical-drive]
+    desktop: usr/share/applications/djv_view.desktop
+    plugs: [desktop, desktop-legacy, wayland, unity7, opengl, home, removable-media, network, network-observe, optical-drive]
 
   djv-convert:
     command: djv_convert
