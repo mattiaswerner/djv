@@ -19,7 +19,7 @@ icon: etc/images/djv_view_48x48.png
 apps:
   djv-view:
     command: desktop-launch djv_view
-    plugs: [desktop, wayland, unity7, opengl, home, removable-media, mount-observe, network, network-observe, optical-drive]
+    plugs: [wayland, unity7, opengl, home, removable-media, mount-observe, network, network-observe, optical-drive]
 
   djv-convert:
     command: djv_convert
@@ -64,7 +64,3 @@ parts:
 
     stage-packages:
       - libqt5gui5
-      - libstdc++6
-      - zlib1g
-      - libpcre3
-      - liblzma5
