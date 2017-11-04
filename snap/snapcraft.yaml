@@ -69,5 +69,4 @@ parts:
       - libpcre3
       - liblzma5
       - libpng16-16
-      - libilmbase12
-      - libopenexr22
+      - ffmpeg
