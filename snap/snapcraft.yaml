@@ -65,3 +65,4 @@ parts:
     stage-packages:
       - libqt5gui5
       - libstdc++6
+      - zlib1g
