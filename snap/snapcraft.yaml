@@ -69,3 +69,4 @@ parts:
       - libpcre3
       - liblzma5
       - libpng16-16
+      - libilmbase12
